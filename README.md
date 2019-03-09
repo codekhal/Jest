@@ -1,2 +1,2 @@
 # Jest
-Meteor based Application
+A Meteor based Application
