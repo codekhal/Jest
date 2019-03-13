@@ -11,5 +11,15 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 <body>
+
 	{{> sidebar}}
+	
 </body>
+<!-- Main layout is rendered -->
+
+<template name="main_layout">
+	<div class="main-content">
+		{{> yield}}
+	</div>
+	
+</template>
