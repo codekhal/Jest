@@ -13,4 +13,10 @@ Router.map(function(){
 		path: '/',
 		template: 'login'  
 	});
+
+	this.route('signup', {
+		path: '/signup',
+		template: 'signup'  
+	});
+	
 });
